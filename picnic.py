@@ -1,6 +1,3 @@
-C = int(input())
-
-
 def makepair(listToPair):
     global ans
     global relation
@@ -18,6 +15,7 @@ def makepair(listToPair):
                 makepair(newlist)
 
 
+C = int(input())
 for testcase in range(C):
     ans = 0;
     relation = [[0] * 10 for i in range(10)]
