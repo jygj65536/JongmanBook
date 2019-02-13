@@ -4,8 +4,6 @@ C = int(input())
 def makepair(listToPair):
     global ans
     global relation
-
-    # print("makepair called:", listToPair)
     if len(listToPair) == 2:
         if relation[listToPair[0]][listToPair[1]]:
             ans += 1
